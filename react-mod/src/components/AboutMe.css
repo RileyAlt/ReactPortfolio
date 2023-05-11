@@ -1,0 +1,16 @@
+.imgsrc {
+    border-radius: 8px;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.aboutMeContainer {
+    display: flex;
+    align-items: center;
+}
+
+.biograph {
+    padding-left: 1%;
+}
