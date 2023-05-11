@@ -1,27 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import Header from './components/Header'
+import AboutMe from './components/AboutMe'
+import Portfolio from './components/Portfolio'
+import ContactForm from './components/ContactForm'
+import Resume from './components/Resume'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <Router>
-      <p> I am the header </p>
+      <Header />
       <Routes>
-        <Route path="/" element={<p>I am at the root </p>} />
-        <Route path="/contact" element={<p>I am on the contact me page</p>} />
-        <Route path="/resume" element={<p>I am on the resume page</p>} />
+        <Route path="/" element={<AboutMe/>} />
+        <Route path="/AboutMe" element={<AboutMe />} />
+        <Route path="/Portfolio" element={<Portfolio/>} />
+        <Route path="/Resume" element={<Resume/>} />
+        <Route path="/ContactForm" element={<ContactForm />} />
       </Routes>
-      {/* 
-        <Routes>
-          <Route path="/" element={<AboutMe/>} />
-          <Route path="/about-me" element={<AboutMe/>} />
-          <Route path="/contact" element={<ContactForm/>} />
-          <Route path="/resume" element={<Resume/>} />
-        </Routes>
-      */}
       <p> I am the footer </p>
-      <Link to={'/contact'}>Go to contact form</Link>
+      <Link to={'/Contact'}>Go to contact form</Link>
     </Router>
   </React.StrictMode>
 )
