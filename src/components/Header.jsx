@@ -56,7 +56,7 @@ function Header(props) {
                     {
                         headerLinks.map((link) => {
                             return(
-                                <li key={link.path} className={activePath.startsWith(link.path) ? 'active' : 'not-active'}>
+                                <li key={link.path} className={activePath.includes(link.path) ? 'active' : 'not-active'}>
                                     <a onClick={() => handleNavigation(link.path)}>{link.text}</a>
                                 </li>
                             )
