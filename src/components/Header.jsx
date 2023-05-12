@@ -3,13 +3,21 @@ import { useNavigate } from 'react-router-dom';
 
 import './Header.css';
 
+const DEPLOYED_APP_PREFIX = '/reactPortfolio';
+
 function Header(props) {
     const [activePath, setActivePath] = React.useState(window.location.pathname);
+    const [isDeployedApp, _setIsDeployedApp] = React.useState(window.location.pathname.startsWith(DEPLOYED_APP_PREFIX));
     const navigate = useNavigate();
 
     React.useEffect(() => {
-        if(activePath == '/') {
-            setActivePath('/AboutMe')
+        if((activePath == '/') || (isDeployedApp && activePath.startsWith(DEPLOYED_APP_PREFIX))) {
+            if (isDeployedApp) {
+                setActivePath(`${DEPLOYED_APP_PREFIX}/AboutMe`)
+            } else {
+                setActivePath('/AboutMe')
+            }
+            
         }
     }, []);
 
@@ -33,6 +41,9 @@ function Header(props) {
     ];
 
     const handleNavigation = (path) => {
+        if (isDeployedApp) {
+            path = `${DEPLOYED_APP_PREFIX}${path}`
+        }
         setActivePath(path);
         navigate(path);
     };

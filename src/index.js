@@ -21,8 +21,14 @@ root.render(
         <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/Resume" element={<Resume />} />
         <Route path="/ContactForm" element={<ContactForm />} />
+
+        <Route path="/reactPortfolio/" element={<AboutMe />} />
+        <Route path="/reactPortfolio/AboutMe" element={<AboutMe />} />
+        <Route path="/reactPortfolio/Portfolio" element={<Portfolio />} />
+        <Route path="/reactPortfolio/Resume" element={<Resume />} />
+        <Route path="/reactPortfolio/ContactForm" element={<ContactForm />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </Router>
   </React.StrictMode>
 )

@@ -2,7 +2,7 @@
   "name": "react-mod",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RileyAlt.github.io",
+  "homepage": "https://RileyAlt.github.io/reactPortfolio",
   "dependencies": {
     "-": "^0.0.1",
     "@emailjs/browser": "^3.11.0",
