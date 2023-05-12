@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ea36b79.css",
-    "main.js": "/static/js/main.6187296b.js",
-    "static/media/digital-marketing-meeting.jpg": "/static/media/digital-marketing-meeting.c672fcf0b6bd0c33ff16.jpg",
-    "static/media/profilepic.png": "/static/media/profilepic.9fab7e873d72e6bd0868.png",
-    "static/media/fitness.png": "/static/media/fitness.906f731095a7f792fd08.png",
-    "static/media/WorkingApp.png": "/static/media/WorkingApp.7295980b0732fefa8fa2.png",
-    "static/media/WorkingCategory.png": "/static/media/WorkingCategory.cb1dc38f641658d6893b.png",
-    "static/media/groupproj1.png": "/static/media/groupproj1.5c17504e9d44243966b8.png",
-    "static/media/running-app.png": "/static/media/running-app.74e9920527fcca9480e5.png",
-    "static/media/RileyAltenburgResumePDF.pdf": "/static/media/RileyAltenburgResumePDF.f5603d82bd5c9db19bbf.pdf",
-    "index.html": "/index.html",
-    "main.6ea36b79.css.map": "/static/css/main.6ea36b79.css.map",
-    "main.6187296b.js.map": "/static/js/main.6187296b.js.map"
+    "main.css": "/reactPortfolio/static/css/main.6ea36b79.css",
+    "main.js": "/reactPortfolio/static/js/main.5510c480.js",
+    "static/media/digital-marketing-meeting.jpg": "/reactPortfolio/static/media/digital-marketing-meeting.c672fcf0b6bd0c33ff16.jpg",
+    "static/media/profilepic.png": "/reactPortfolio/static/media/profilepic.9fab7e873d72e6bd0868.png",
+    "static/media/fitness.png": "/reactPortfolio/static/media/fitness.906f731095a7f792fd08.png",
+    "static/media/WorkingApp.png": "/reactPortfolio/static/media/WorkingApp.7295980b0732fefa8fa2.png",
+    "static/media/WorkingCategory.png": "/reactPortfolio/static/media/WorkingCategory.cb1dc38f641658d6893b.png",
+    "static/media/groupproj1.png": "/reactPortfolio/static/media/groupproj1.5c17504e9d44243966b8.png",
+    "static/media/running-app.png": "/reactPortfolio/static/media/running-app.74e9920527fcca9480e5.png",
+    "static/media/RileyAltenburgResumePDF.pdf": "/reactPortfolio/static/media/RileyAltenburgResumePDF.f5603d82bd5c9db19bbf.pdf",
+    "index.html": "/reactPortfolio/index.html",
+    "main.6ea36b79.css.map": "/reactPortfolio/static/css/main.6ea36b79.css.map",
+    "main.5510c480.js.map": "/reactPortfolio/static/js/main.5510c480.js.map"
   },
   "entrypoints": [
     "static/css/main.6ea36b79.css",
-    "static/js/main.6187296b.js"
+    "static/js/main.5510c480.js"
   ]
 }
