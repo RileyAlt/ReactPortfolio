@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 
 import './Header.css';
@@ -6,6 +7,12 @@ import './Header.css';
 function Header(props) {
     const [activePath, setActivePath] = React.useState(window.location.pathname);
     const navigate = useNavigate();
+
+    React.useEffect(() => {
+        if(activePath == '/') {
+            setActivePath('/AboutMe')
+        }
+    }, []);
 
     const headerLinks = [
         {
@@ -27,7 +34,6 @@ function Header(props) {
     ];
 
     const handleNavigation = (path) => {
-        console.log("Calling this function!", path);
         setActivePath(path);
         navigate(path);
     };

@@ -12,11 +12,10 @@ import './Portfolio.css';
 const PortfolioWork = () => {
     return (
         <div className="main">
-
             <section className="work">
+                <img src={Project3} style={{width: '400px'}} alt="blue smoke" />
                 <a target="_blank" rel="noreferrer"  href="https://fitnesstalks.herokuapp.com/"> Go to Project</a>
                 <a target="_blank" rel="noreferrer"  href="https://github.com/Safi1317/Fitness-Talks"> Go to GitHub</a>
-                    <img src={Project3} style={{width: '400px'}} alt="blue smoke" />
                 <div className='photo-name'><span className="text-border"><strong> Second Group Project 2</strong></span></div>
             </section>
 

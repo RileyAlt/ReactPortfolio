@@ -23,7 +23,6 @@ root.render(
         <Route path="/ContactForm" element={<ContactForm />} />
       </Routes>
       <Footer/>
-      <Link to={'/Contact'}>Go to contact form</Link>
     </Router>
   </React.StrictMode>
 )
