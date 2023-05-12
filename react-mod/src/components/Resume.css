@@ -1,0 +1,39 @@
+.resumePage {
+    padding: 10px;
+}
+
+.download-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.download-link {
+    background-color: #4CAF50;
+    display: flex;
+    width: fit-content;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-size: 24px;
+    border-radius: 20px;
+    height:85px;
+}
+
+.download-link:hover {
+    color: black;
+}
+
+.skillsList {
+    font-size: 20px;
+}
+
+.skillsList li {
+    margin: 10px;
+}
+
+
+.skillsHeader {
+    font-size: 32px;
+    margin-top: 20px;
+}

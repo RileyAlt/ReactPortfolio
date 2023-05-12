@@ -1,7 +1,57 @@
-.main {
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project {
+    flex-basis: calc(33.33% - 10px);
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: lightgray;
+    padding-top: 20px;
+  }
+  
+  .projectimg {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .projectDetails {
+    padding: 5px;
+    text-align: center;
 
-}
-
-.work {
-    
-}
+  }
+  
+  .projectDetails h2 {
+    margin: 0;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  .projectLinks {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  .projectLinks a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .projectLinks a:hover {
+    background-color: #0069d9;
+  }

@@ -1,0 +1,29 @@
+.contact-form {
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.contact-form label {
+    font-size: 24px;
+}
+
+.contact-form input, .contact-form textarea  {
+    width: 40%;
+}
+
+.contact-form textarea  {
+    height: 300px;
+}
+
+.contact-form button[type=submit]  {
+    width: 200px;
+}
+
+.contact-form button[type=submit]:hover  {
+    cursor: pointer;
+}
+
+.successMessage {
+    font-size: 24px;
+    margin-left: 20px;
+}

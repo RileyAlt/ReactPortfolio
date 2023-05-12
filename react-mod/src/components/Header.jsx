@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 
 import './Header.css';
@@ -40,9 +39,9 @@ function Header(props) {
 
     return (
         <header className="header">
-            <h1> Riley Altenburg</h1>
+            <h1 className="name"> Riley Altenburg</h1>
             <nav>
-                <ul>
+                <ul className="headerLinks">
                     {
                         headerLinks.map((link) => {
                             return(
