@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.6ea36b79.css",
-    "main.js": "/reactPortfolio/static/js/main.8151da1f.js",
+    "main.js": "/reactPortfolio/static/js/main.91181aa4.js",
     "static/media/digital-marketing-meeting.jpg": "/reactPortfolio/static/media/digital-marketing-meeting.c672fcf0b6bd0c33ff16.jpg",
     "static/media/profilepic.png": "/reactPortfolio/static/media/profilepic.9fab7e873d72e6bd0868.png",
     "static/media/fitness.png": "/reactPortfolio/static/media/fitness.906f731095a7f792fd08.png",
@@ -12,10 +12,10 @@
     "static/media/RileyAltenburgResumePDF.pdf": "/reactPortfolio/static/media/RileyAltenburgResumePDF.f5603d82bd5c9db19bbf.pdf",
     "index.html": "/reactPortfolio/index.html",
     "main.6ea36b79.css.map": "/reactPortfolio/static/css/main.6ea36b79.css.map",
-    "main.8151da1f.js.map": "/reactPortfolio/static/js/main.8151da1f.js.map"
+    "main.91181aa4.js.map": "/reactPortfolio/static/js/main.91181aa4.js.map"
   },
   "entrypoints": [
     "static/css/main.6ea36b79.css",
-    "static/js/main.8151da1f.js"
+    "static/js/main.91181aa4.js"
   ]
 }
