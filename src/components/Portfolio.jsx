@@ -5,7 +5,7 @@ import Project3 from '../assets/fitness.png';
 import Project4 from '../assets/running-app.png';
 import Project5 from '../assets/WorkingApp.png';
 import Project6 from '../assets/WorkingCategory.png';
-import Project7 from '../assets/WorkingCategory.png';
+import Project7 from '../assets/reactApp.png';
 
 
 import './Portfolio.css';
@@ -14,7 +14,7 @@ const PortfolioWork = () => {
     return (
         <div className="project-list">
             <div className="project">
-                <img src={Project3} className="projectimg" alt="MASH React" />
+                <img src={Project7} className="projectimg" alt="MASH React" />
                 <div className="projectDetails">
                     <h2>React MASH</h2>
                     <div className="projectLinks">
