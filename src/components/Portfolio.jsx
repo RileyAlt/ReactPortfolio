@@ -4,7 +4,6 @@ import Project2 from '../assets/groupproj1.png';
 import Project3 from '../assets/fitness.png';
 import Project4 from '../assets/running-app.png';
 import Project5 from '../assets/WorkingApp.png';
-import Project6 from '../assets/WorkingCategory.png';
 import Project7 from '../assets/reactApp.png';
 
 
