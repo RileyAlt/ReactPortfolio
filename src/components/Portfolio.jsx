@@ -20,6 +20,7 @@ const PortfolioWork = () => {
                     <div className="projectLinks">
                         <a target="_blank" rel="noreferrer"  href="https://mash-game-project.herokuapp.com/"> Go to Project</a>
                         <a target="_blank" rel="noreferrer"  href="https://github.com/ItsMARPON/mash-game"> Go to GitHub</a>
+                        
                     </div>
                 </div>
             </div>
