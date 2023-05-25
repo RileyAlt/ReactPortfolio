@@ -79,16 +79,6 @@ const PortfolioWork = () => {
                     </div>
                 </div>
             </div>
-
-            <div className="project">
-                <img src={Project6} className="projectimg" alt="ORM Backend" />
-                <div className="projectDetails">
-                    <h2>SORM Backend</h2>
-                    <div className="projectLinks">
-                        <a target="_blank" rel="noreferrer"  href="https://github.com/RileyAlt/ORM_eCommerce_Back_End"> Go to GitHub</a>
-                    </div>
-                </div>
-            </div>
         </div>
     )
 }
