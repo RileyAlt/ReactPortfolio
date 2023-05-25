@@ -5,6 +5,7 @@ import Project3 from '../assets/fitness.png';
 import Project4 from '../assets/running-app.png';
 import Project5 from '../assets/WorkingApp.png';
 import Project6 from '../assets/WorkingCategory.png';
+import Project7 from '../assets/WorkingCategory.png';
 
 
 import './Portfolio.css';
@@ -12,6 +13,16 @@ import './Portfolio.css';
 const PortfolioWork = () => {
     return (
         <div className="project-list">
+            <div className="project">
+                <img src={Project3} className="projectimg" alt="MASH React" />
+                <div className="projectDetails">
+                    <h2>React MASH</h2>
+                    <div className="projectLinks">
+                        <a target="_blank" rel="noreferrer"  href="https://mash-game-project.herokuapp.com/"> Go to Project</a>
+                        <a target="_blank" rel="noreferrer"  href="https://github.com/ItsMARPON/mash-game"> Go to GitHub</a>
+                    </div>
+                </div>
+            </div>
             <div className="project">
                 <img src={Project3} className="projectimg" alt="training sports app" />
                 <div className="projectDetails">
@@ -33,6 +44,8 @@ const PortfolioWork = () => {
                     </div>
                 </div>
             </div>
+
+            
 
             <div className="project">
                 <img src={Project1} className="projectimg" alt="debugging" />
