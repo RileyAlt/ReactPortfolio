@@ -20,10 +20,11 @@ const PortfolioWork = () => {
                     <div className="projectLinks">
                         <a target="_blank" rel="noreferrer"  href="https://mash-game-project.herokuapp.com/"> Go to Project</a>
                         <a target="_blank" rel="noreferrer"  href="https://github.com/ItsMARPON/mash-game"> Go to GitHub</a>
-                        
+
                     </div>
                 </div>
             </div>
+
             <div className="project">
                 <img src={Project3} className="projectimg" alt="training sports app" />
                 <div className="projectDetails">
@@ -45,8 +46,6 @@ const PortfolioWork = () => {
                     </div>
                 </div>
             </div>
-
-            
 
             <div className="project">
                 <img src={Project1} className="projectimg" alt="debugging" />
@@ -80,7 +79,6 @@ const PortfolioWork = () => {
                     </div>
                 </div>
             </div>
-
 
             <div className="project">
                 <img src={Project6} className="projectimg" alt="ORM Backend" />
